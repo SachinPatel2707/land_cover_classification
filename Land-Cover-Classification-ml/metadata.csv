@@ -1,0 +1,7 @@
+image_id,split,sat_image_path,mask_path
+119,train,train/119_sat.jpg,train/119_mask.png
+266,train,train/266_sat.jpg,train/266_mask.png
+606,train,train/606_sat.jpg,train/606_mask.png
+855,train,train/855_sat.jpg,train/855_mask.png
+6783,valid,valid/6783_sat.jpg,
+1499,test,test/1499_sat.jpg,

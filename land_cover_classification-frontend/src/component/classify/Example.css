@@ -1,0 +1,117 @@
+#result-container{
+    width: 100%;
+    flex-direction: column;
+    height: fit-content;
+    background: #f8f8f8f3;
+    position: relative;
+    color: #444;
+    z-index: 1;
+}
+#parent-grid {
+    display: grid;
+    width: 100%;
+    height: 150vh;
+    grid-template-columns: 5% 40% 10% 40% 5%;
+    grid-template-rows: 10% 40% 10% 30% 10%;
+    background: #f8f8f8f3;
+    position: relative;
+    color: #444;
+    z-index: 1;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    box-shadow: rgba(7, 7, 7, 0.3) 10px 10px 32px;
+}
+
+.result-item:last-of-type {
+    box-shadow: rgba(7, 7, 7, 0.0) 10px 10px 32px;
+}
+
+#mask-img {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#selected-img {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#graph-img {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+#analysis-container {
+    height: 100%;
+    width: 80%;
+    box-shadow: rgba(7, 7, 7, 0.2) 10px 10px 32px;
+    display: grid;
+    grid-template-columns: 5% 40% 10% 40% 5%;
+    grid-template-rows: 10% 80% 10%;
+    background: #fff;
+}
+
+#result-container .my-btn {
+    width: 12vw;
+    height: 7vh;
+    background: #2b806a;
+    color: #fff;
+    letter-spacing: 0.7px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+    position: relative;
+    z-index: 3;
+    margin-bottom: 40px;
+}
+
+#result-container .my-btn:hover {
+    transform: translateY(-10px);
+}
+
+.caption {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 0.7px;
+    word-spacing: 2px;
+}
+
+img.result-img {
+    height: 55vh;
+    width: 50vw;
+}
+
+#analysis-graph {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#analysis-text {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    flex-direction: column;
+    letter-spacing: 1px;
+}
+

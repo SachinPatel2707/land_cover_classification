@@ -1,0 +1,133 @@
+.team-main {
+    width: 100%;
+    height: 120vh;
+    color: #333;
+    background-color: #fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-container {
+    width: 90%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 10% 45% 7% 38%;
+}
+
+.h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+.heading {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.heading h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+.mentors {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    justify-self: center;
+    align-self: center;
+}
+
+.neeraj_sir {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.mukesh_sir {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.karan {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.nitin {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.sachin {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.saksham {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.students {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    justify-self: center;
+    align-self: center;
+}
+
+.mentorImage {
+    width: 80%;
+    height: 100%;
+    margin-right: auto;
+}
+
+.studentImage {
+    width: 60%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    margin-left: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+}
+
+.round-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 2px 0px 5px 1px rgba(130, 130, 130, 0.3);
+}
